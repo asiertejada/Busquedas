@@ -1,35 +1,33 @@
-# Searches book
+# Búsquedas, el libro
 
-Searches is a book made with Google search entries. It’s like a diary you didn’t know you were writing.
-More info at [ishback.com/searches](ishback.com/searches)
+Búsquedas es la traducción al castellano de Searches, un libro que recopila las búsquedas realizadas con Google. Es como un diario que no sabías que ya estabas escribiendo.
+Más información en el proyecto original: [ishback.com/searches](ishback.com/searches)
 
-## Create your own Searches book:
+## Crea tu propio libro Búsquedas:
 
-### Download your search history
+### Descarga tu historial de búsquedas
 
-1. Go to [https://history.google.com](https://history.google.com). You’ll need to enter your Google email and password if you’re not logged in yet.
-2. In the ‘Web & App Activity’ section, click on the icon with the three dots on the top right corner, and 
-click ‘Download searches’.
-3. Choose ‘Create archive’. You will receive an email from Google when the archive is ready to download.
-4. Unzip the archive. You should get a folder ‘Searches’ that contains index.html and another folder ‘Searches’
+1. Ve a [https://history.google.com](https://history.google.com). Necesitarás introducir tu email de Google y tu contraseña si aún no estás logueado.
+2. En la sección 'Actividad en la Web y en Aplicaciones', haz clic en el icono con los tres puntos en la esquina superior derecha y pulsa en 'Descargar búsquedas'.
+3. Pulsa el botón ‘Crear Archivo’. Recibirás un correo electrónico cuando el historial esté listo para ser descargado.
+4. Descomprime el archivo ZIP. Deberás obtener un carpeta llamada 'Búsquedas' que contiene un archivo index.html y otra carpeta llamada 'Búsquedas'.
 
-### Download DrawBot
+### Descarga DrawBot
 
-The book is generated with DrawBot, a free application for Mac. 
+Este libro está generado con DrawBot, una aplicación gratuita para Mac.
 
-5. To download DrawBot, go to [http://www.drawbot.com/content/download.html](http://www.drawbot.com/content/download.html).
+5. Para descargar DrawBot, ve a [http://www.drawbot.com/content/download.html](http://www.drawbot.com/content/download.html).
 
-### Download the searches.py script
+### Descarga el script busquedas.py
 
-searches.py is a python script that takes your searches and creates a book.
+busquedas.py es un script en python que extrae tus búsquedas y crea un libro.
 
-6. Download searches.py from here: 
-7. Place searches.py in the same directory than the folder you unzipped, ‘Searches’ (where the index.html is).
+6. Descarga busquedas.py de este repositorio.
+7. Mueve busquedas.py a la carpeta 'Búsquedas' que obtuviste al descomprimir el archivo ZIP (la carpeta en la que se encuentra el archivo index.html).
 
-### Create the book
+### Genera el libro
 
-8. Open searches.py with Drawbot. Press ⌘+R to run the script. The book will appear on the left side. 
-9. To save the book in PDF, go to File > Export as PDF. You can also print the book directly from DrawBot.
+8. Abre busquedas.py con DrawBot. Pulsa ⌘+R para ejecutar el script. El libro aparecerá en el panel izquierdo de DrawBot.
+9. Para guardar el libro en formatoPDF, ve a File > Save PDF. También puedes imprimir el libro directamente desde DrawBot (File > Print…).
 
-By default, the script will create a book of your 2015 searches. If you wish to create a book for past years, change the year in line 6.
-
+Por defecto, el script genera un libro para tus búsquedas de 2015. Si deseas crear un libro de un año anterior cambia el año en la línea 6 del script.
